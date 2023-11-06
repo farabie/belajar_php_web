@@ -1,10 +1,10 @@
 <?php
 session_start();
 
-// if($_SESSION['login'] == true) {
-//     header('Location: /session/member.php');
-//     exit();
-// }
+if($_SESSION['login'] == true) {
+    header('Location: /session/member.php');
+    exit();
+}
 
 $error = "";
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
