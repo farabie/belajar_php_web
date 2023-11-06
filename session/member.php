@@ -13,6 +13,6 @@ $say = "Hello " . $_SESSION['username'];
 <html>
     <body>
         <h1><?= $say; ?></h1>
-        <a href="/sesion/logout.php">Logout</a>
+        <a href="logout.php">Logout</a>
     </body>
 </html>
